@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "5a8796b2-84e0-4822-a62e-5a66fd56ed27",
+		"name": "chat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19871798"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"wey\",\r\n    \"message\": \"tess\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/messages",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
